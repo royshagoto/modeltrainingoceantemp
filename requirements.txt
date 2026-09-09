@@ -1,0 +1,12 @@
+torch>=2.1
+numpy>=1.24
+xarray>=2024.1
+netCDF4>=1.6
+h5netcdf>=1.2
+pandas>=2.0
+scipy>=1.11
+
+# Optional but recommended for production-grade conservative regridding
+# of irregular-grid source products (falls back to xarray linear interp
+# if not installed):
+# xesmf>=0.8
